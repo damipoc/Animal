@@ -21,7 +21,7 @@ public class Runner {
         System.out.println(catOne);
         System.out.println("Does this animal have paws? " + catOne.hasPaws());
         System.out.println("What sound does this animal make? " + catOne.sound());
-        System.out.println("Whats the eye colour of the cat? " +catOne.getEyeColour());
+        System.out.println("Whats the eye colour of the cat? " + catOne.getEyeColour());
         catOne.isPet();
         catOne.hasFur();
 

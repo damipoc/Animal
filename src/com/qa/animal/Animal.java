@@ -2,11 +2,11 @@ package com.qa.animal;
 
 public class Animal implements Pet, Fur {
 
-    private String size;
-    private int age;
-    private int gramWeight;
+    public String size;
+    public int age;
+    public int gramWeight;
 
-    //Fix grams
+    // Fix grams
 
     public String getSize() {
         return size;

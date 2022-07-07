@@ -2,12 +2,9 @@ package com.qa.animal;
 
 public class Hamster extends Animal {
 
-    private String size;
-    private int age;
-    private int gramWeight;
     private String type;
 
-    public Hamster(String size, int age, int gramWeight, String type){
+    public Hamster(String size, int age, int gramWeight, String type) {
         this.size = size;
         this.age = age;
         this.gramWeight = gramWeight;
